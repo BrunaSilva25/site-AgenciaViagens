@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"> Pacotes</a></li>
+                <li><a href="#">Taxa </a></li>
+                <li><a href="#">Contato </a></li>
+            </ul>
+        </nav>
+
+
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+
+    <section id="pacotes">
+        <h2>Conheça nossos pacotes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam dui ante, a vestibulum nibh
+            dictum facilisis. Vestibulum scelerisque, nulla eu elementum dignissim, lacus ligula laoreet leo, pretium
+            iaculis erat libero ut libero. Morbi quis tincidunt mauris. Fusce a porttitor tellus. Maecenas et aliquet
+            nunc. Duis at fermentum neque. Cras tristique interdum sollicitudin. In nec lectus sit amet est pharetra
+            euismod at eu ante. Nulla placerat accumsan sem sed lacinia. Maecenas eget lectus vitae magna laoreet
+            iaculis. Vestibulum ac mi sed purus iaculis dictum. Vestibulum sit amet egestas eros. Vestibulum felis est,
+            venenatis gravida pharetra a, vestibulum aliquet elit.
+
+            Curabitur placerat massa tortor, sed euismod augue pharetra id. Vivamus non hendrerit mi. Mauris
+            pellentesque quam a turpis pretium lobortis. Donec ut quam a dui bibendum iaculis nec ut nisl. Aenean mattis
+            leo vitae magna scelerisque suscipit. Donec eu quam lorem. Curabitur eu ex lacus. Integer vulputate enim
+            quam, vel viverra est luctus placerat.
+
+            Sed vestibulum dolor eget mauris commodo mattis. Duis dictum, quam at consequat euismod, odio nibh feugiat
+            libero, eget molestie felis dui id sem. Praesent sed purus eu augue blandit rhoncus nec vel est. Vestibulum
+            ut ullamcorper neque. Mauris ut congue dui. Vivamus ac imperdiet urna, ut commodo leo. Aenean quis malesuada
+            justo, eu vulputate tortor.
+
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html"> link</a>
+            <hr>
+        </p>
+
+    <div class="figuras">
+        <figure>
+            <img src="img/nossos-pacotes/gramado.PNG" alt="imagem de gramado">
+            <figcaption>Gramado</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/nossos-pacotes/porto.PNG" alt="imagem  porto seguro">
+            <figcaption> porto seguro</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/nossos-pacotes/rio.PNG" alt="imagem de rio de janeiro">
+            <figcaption>Rio de Janeiro</figcaption>
+        </figure>
+
+     </div>
+     <div class="videos">
+        <video controls width="500px">
+            <source src="video/P1033661.mp4" type="video/mp4">
+            <source src="video/P1033684.webm" type="video/webm">
+            seu navegador nao suporta o formato de video. <a href="video/P1033661.mp4"> Clique aqui para baixar</a>
+        </video>
+    </div>
+    </section>
+
+   
+    <section>
+        <h2>Taxas Servicos</h2>
+        <p>Veja nossas taxas para serviços</p>
+        <table >
+            <caption> Descrição dos serviços e repectivos valores</caption>
+            <thead>
+            <tr>
+                <th>Servicos</th>
+                <th>valor</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+             <td> Reserva de Hotel</td>
+             <td> R$ 150,00</td>
+            </tr>
+
+            <tr>
+                <td>Compra de passagens</td>
+                <td>R$ 100,00</td>
+            </tr>
+
+            <tr>
+                <td>Aluguel de carros</td>
+                <td>R$ 50,00</td>
+            </tr>
+        </tbody> 
+
+        </table>
+    </section>
+
+    <section>
+        <h2>Orcamento</h2>
+        <form method="get" action="">
+
+        <fieldset>
+            <legend>Dados da viagem</legend>
+            <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="text" name="email"><br><br>
+            
+            <label> Data de Ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label> Data de volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qtdPessoas"><br><br>
+        </fieldset>
+
+
+            <fieldset>
+            <legend>Quais servicos deseja contratar?</legend>
+
+            <label>
+            <br><input type="checkbox" name="passagens" value="Passagens"> Compra de passagens
+             </label>
+             <label>
+            <br><input type="checkbox" name="hospedagens" value="Hospedagens">Reserva de hospedagem
+            </label>
+            <label>
+            <br><input type="checkbox" name="veiculos" value="Veiculos"> Reserva de veiculos
+            </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br> <input type="radio" name="formaPagamento" value="boleto">Boleto
+                </label>
+                <label>
+                    <br> <input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha um prazo para pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">A Vista</option>
+                    <option value="5x"> 5x sem juros</option>
+                    <option value="10x" selected> 10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentario</label><br>
+            <textarea rows="5" name="comentario"></textarea><br><br>
+            <button>Salvar</button>
+
+        </form>
+    </section>
+
+
+    <footer>
+        <p> Desenvolvido por Bruna</p>
+    </footer>
+
+</body>
+</html>
